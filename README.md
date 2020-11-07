@@ -179,6 +179,7 @@ segundos, com a pontuação do jogador que controla o pato e do jogador que
 vencedor e a pontuação de cada jogador, além da opção de retornar ao menu.
 
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/multiplayer.png?raw=true)
+
 Figura 3 - Modo Multiplayer
 
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/gameOver.png?raw=true)
