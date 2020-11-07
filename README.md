@@ -158,6 +158,7 @@ arquivos das imagens.
     A interface inicializa com a tela de menu principal, no qual o usuário pode
 escolher qual modo de jogo irá jogar ou se deseja visualizar os créditos do jogo. A escolha
 de uma dessa 3 opções é feita por meio do clique do mouse no retângulo correspondente.
+
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/mainMenu.png?raw=true)
 
 Figura 1 - Menu principal do jogo
