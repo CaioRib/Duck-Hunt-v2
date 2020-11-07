@@ -175,6 +175,7 @@ objetivo, as próximas rodadas são realizada, caso contrário o jogo mostra a t
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/singlePlayer.png?raw=true)
 
 Figura 2 - Modo Single Player.
+
 Caso seja selecionada a opção de multiplayer, é iniciado a tela de multiplayer
 com o pato que será controlado pelo segundo jogador, com um contador de 60
 segundos, com a pontuação do jogador que controla o pato e do jogador que
