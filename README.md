@@ -159,6 +159,7 @@ arquivos das imagens.
 escolher qual modo de jogo irá jogar ou se deseja visualizar os créditos do jogo. A escolha
 de uma dessa 3 opções é feita por meio do clique do mouse no retângulo correspondente.
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/mainMenu.png?raw=true)
+
 Figura 1 - Menu principal do jogo
 
 
@@ -171,6 +172,7 @@ objetivo, as próximas rodadas são realizada, caso contrário o jogo mostra a t
 ​ _over_ , mostra a pontuação total do jogador e uma opção para voltar ao menu (tela inicial).
 
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/singlePlayer.png?raw=true)
+
 Figura 2 - Modo Single Player.
 Caso seja selecionada a opção de multiplayer, é iniciado a tela de multiplayer
 com o pato que será controlado pelo segundo jogador, com um contador de 60
@@ -183,11 +185,14 @@ vencedor e a pontuação de cada jogador, além da opção de retornar ao menu.
 Figura 3 - Modo Multiplayer
 
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/gameOver.png?raw=true)
+
 Figura 4 - Game Over - Multiplayer.
 
 ![alt text](https://github.com/CaioRib/Duck-Hunt-v2/blob/main/img/credits.png?raw=true)
 
 Figura 5 - Créditos.
+
+
 **5. Referências Bibliográficas:**
     https://stackoverflow.com/
     https://docs.oracle.com/javase/8/docs/api/
