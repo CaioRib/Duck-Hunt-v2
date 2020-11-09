@@ -4,10 +4,10 @@
 # Especificação do Jogo Duck Hunt
 
 ## Alunos:
-Ewerton Patrick Silva do Amaral n°USP:10346975
-Vinicius Torres Dutra Maia da Costa n°USP:10262781
-Gabriel Citroni Uliana noUSP: n°9779367
-Caio Abreu de Oliveira Ribeiro n°USP:10262839
+- Ewerton Patrick Silva do Amaral n°USP:10346975
+- Vinicius Torres Dutra Maia da Costa n°USP:10262781
+- Gabriel Citroni Uliana noUSP: n°9779367
+- Caio Abreu de Oliveira Ribeiro n°USP:10262839
 
 
 
@@ -22,6 +22,8 @@ código, dividindo em classes que controlam cada pato que aparece na tela, que d
 as imagens na tela, que identificam as entradas do mouse e do teclado, que realizam a
 temporização do jogo, etc. Utilizou-se também as bibliotecas gráficas do Java 8 para
 desenvolver a interface.
+    O jogo pode ser jogado baixando e executando o arquivo "Duck Hunt.jar" em um diretório
+que contenha as demais pastas de dependências do jogo.
 
 **2. Jogabilidade:**
     **2.1. Modo single player:**
