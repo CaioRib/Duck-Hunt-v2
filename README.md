@@ -13,21 +13,22 @@
 
 
 ## **1. Introdução**
-    O jogo implementado foi baseado no título Duck Hunt da Nintendo, porém foram
+O jogo implementado foi baseado no título Duck Hunt da Nintendo, porém foram
 realizadas modificações estéticas, na jogabilidade e na lógica, além de um novo modo
 multiplayer, em que o segundo player assume o papel do pato e tem que desviar do
 caçador.
-    Para a implementação foram utilizados os conceitos de classes para modularizar o
+
+Para a implementação foram utilizados os conceitos de classes para modularizar o
 código, dividindo em classes que controlam cada pato que aparece na tela, que desenham
 as imagens na tela, que identificam as entradas do mouse e do teclado, que realizam a
 temporização do jogo, etc. Utilizou-se também as bibliotecas gráficas do Java 8 para
 desenvolver a interface.
-    O jogo pode ser jogado baixando e executando o arquivo "Duck Hunt.jar" em um diretório
-que contenha as demais pastas de dependências do jogo.
+
+O jogo pode ser jogado baixando e executando o arquivo "Duck Hunt.jar" em um diretório que contenha as demais pastas de dependências do jogo.
 
 ## **2. Jogabilidade:**
-    ### **2.1. Modo single player:**
-       Neste modo, o jogador assume o papel do caçador, controlando, por meio do
+**2.1. Modo single player:**
+Neste modo, o jogador assume o papel do caçador, controlando, por meio do
 mouse, a mira de uma arma. A cada round existem 4 ondas de patos, com 3 patos cada. O
 jogador possui 4 tiros durante cada onda de patos e a onda termina quando o atirador gasta
 os 4 tiros ou quando os 3 patos são acertados. Para avançar ao próximo round deve-se
@@ -37,7 +38,7 @@ ganha 500 pontos, caso tenha acertado o pato em uma região próxima das extremi
 hitbox do pato e 1000 pontos, caso tenha acertado na região central do pato. No final da
 ​ partida, se houver ​ _game over_ , é disponibilizada a pontuação final do jogador.
 
-### **2.2. Modo multiplayer:**
+**2.2. Modo multiplayer:**
 O modo de jogo possui dois jogadores, um que controla o caçador e o outro o
 pato. O caçador não possui limite de disparos, controlando a mira da arma através do
 mouse. O Pato utiliza as setas do teclado para definir uma direção de movimento e a tecla
@@ -48,7 +49,7 @@ ganhando pontos para cada tiro errado do caçador. Quando o caçador acerta um p
 recebe 500 ou 1000 pontos variando da região do pato atingida, já jogador controlando o
 pato recebe 200 pontos para cada tiro que o caçador erra. A partida dura 60 segundos, o
 jogador com a maior pontuação no final do tempo é o vencedor.
-### **2.3 Controles:
+** 2.3 Controles:
 Caçador:** ​Mouse para mirar e botão esquerdo do mouse para realizar o
 disparo.
 
@@ -56,8 +57,8 @@ disparo.
 espaço para bater as asas.
 
 ## **3. Detalhes de implementação:**
-    **3.1. Classes principais:**
-       ​ **Passaro** ​ **:** ​Essa classe implementa o comportamento de cada um dos
+### **3.1. Classes principais:**
+**Passaro** ​ **:** ​Essa classe implementa o comportamento de cada um dos
 pássaros presentes no jogo, tendo atributos como a posição do pato na tela, a velocidade
 em cada eixo, o valor da constante gravitacional que atua na física do jogo e outras
 variáveis que controlam o estado do pato. O construtor recebe como parâmetro o estado do
@@ -128,8 +129,8 @@ executar o laço de repetição principal do jogo, utilizando um contador de tem
 a atualização da tela do jogo, chamando os métodos que desenham na tela a cada iteração
 do loop, além de passar por parâmetro o tempo atual do jogo, o qual será responsável por
 atualizar a posição dos patos na imagem.
-### **3.2. Classes Auxiliares:
-ScoreNumber:** ​Essa classe é responsável por guardar os dados do usuário,
+### **3.2. Classes Auxiliares:**
+ **ScoreNumber:**  ​Essa classe é responsável por guardar os dados do usuário,
 como a pontuação total e o número de patos que o jogador matou em cada rodada. Os
 métodos dessa classe são utilizados para escrever números (a partir de um ​ _sprite_ com
 todos os algarismos) que representam a pontuação total e a pontuação por acerto.
@@ -144,8 +145,8 @@ administra a quantidade de balas restantes em cada onda de patos no modo single 
 classe Duck.
 
 
-### **3.3. Principais Bibliotecas:
-java.awt:** Utilizada para auxiliar no desenvolvimento da interface gráfica, por
+### **3.3. Principais Bibliotecas:**
+**java.awt:** Utilizada para auxiliar no desenvolvimento da interface gráfica, por
 meio das classes gráficas para desenhar as imagens na tela, da classe para desenhar o
 cursor, para determinar as dimensões da janela e das classes de eventos, que capturam as
 entradas do mouse e do teclado.
@@ -157,7 +158,7 @@ entradas do mouse e do teclado.
 arquivos das imagens.
 
 ## **4. Interface Gráfica e Execução:**
-    A interface inicializa com a tela de menu principal, no qual o usuário pode
+A interface inicializa com a tela de menu principal, no qual o usuário pode
 escolher qual modo de jogo irá jogar ou se deseja visualizar os créditos do jogo. A escolha
 de uma dessa 3 opções é feita por meio do clique do mouse no retângulo correspondente.
 
