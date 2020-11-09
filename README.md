@@ -12,7 +12,7 @@
 
 
 
-**1. Introdução**
+## **1. Introdução**
     O jogo implementado foi baseado no título Duck Hunt da Nintendo, porém foram
 realizadas modificações estéticas, na jogabilidade e na lógica, além de um novo modo
 multiplayer, em que o segundo player assume o papel do pato e tem que desviar do
@@ -25,8 +25,8 @@ desenvolver a interface.
     O jogo pode ser jogado baixando e executando o arquivo "Duck Hunt.jar" em um diretório
 que contenha as demais pastas de dependências do jogo.
 
-**2. Jogabilidade:**
-    **2.1. Modo single player:**
+## **2. Jogabilidade:**
+    ### **2.1. Modo single player:**
        Neste modo, o jogador assume o papel do caçador, controlando, por meio do
 mouse, a mira de uma arma. A cada round existem 4 ondas de patos, com 3 patos cada. O
 jogador possui 4 tiros durante cada onda de patos e a onda termina quando o atirador gasta
@@ -37,7 +37,7 @@ ganha 500 pontos, caso tenha acertado o pato em uma região próxima das extremi
 hitbox do pato e 1000 pontos, caso tenha acertado na região central do pato. No final da
 ​ partida, se houver ​ _game over_ , é disponibilizada a pontuação final do jogador.
 
-**2.2. Modo multiplayer:**
+### **2.2. Modo multiplayer:**
 O modo de jogo possui dois jogadores, um que controla o caçador e o outro o
 pato. O caçador não possui limite de disparos, controlando a mira da arma através do
 mouse. O Pato utiliza as setas do teclado para definir uma direção de movimento e a tecla
@@ -48,14 +48,14 @@ ganhando pontos para cada tiro errado do caçador. Quando o caçador acerta um p
 recebe 500 ou 1000 pontos variando da região do pato atingida, já jogador controlando o
 pato recebe 200 pontos para cada tiro que o caçador erra. A partida dura 60 segundos, o
 jogador com a maior pontuação no final do tempo é o vencedor.
-**2.3 Controles:
+### **2.3 Controles:
 Caçador:** ​Mouse para mirar e botão esquerdo do mouse para realizar o
 disparo.
 
 **Pato:** ​Setas direcionais esquerda e direita para a direção do pato e barra de
 espaço para bater as asas.
 
-**3. Detalhes de implementação:**
+## **3. Detalhes de implementação:**
     **3.1. Classes principais:**
        ​ **Passaro** ​ **:** ​Essa classe implementa o comportamento de cada um dos
 pássaros presentes no jogo, tendo atributos como a posição do pato na tela, a velocidade
@@ -128,7 +128,7 @@ executar o laço de repetição principal do jogo, utilizando um contador de tem
 a atualização da tela do jogo, chamando os métodos que desenham na tela a cada iteração
 do loop, além de passar por parâmetro o tempo atual do jogo, o qual será responsável por
 atualizar a posição dos patos na imagem.
-**3.2. Classes Auxiliares:
+### **3.2. Classes Auxiliares:
 ScoreNumber:** ​Essa classe é responsável por guardar os dados do usuário,
 como a pontuação total e o número de patos que o jogador matou em cada rodada. Os
 métodos dessa classe são utilizados para escrever números (a partir de um ​ _sprite_ com
@@ -144,7 +144,7 @@ administra a quantidade de balas restantes em cada onda de patos no modo single 
 classe Duck.
 
 
-**3.3. Principais Bibliotecas:
+### **3.3. Principais Bibliotecas:
 java.awt:** Utilizada para auxiliar no desenvolvimento da interface gráfica, por
 meio das classes gráficas para desenhar as imagens na tela, da classe para desenhar o
 cursor, para determinar as dimensões da janela e das classes de eventos, que capturam as
@@ -156,7 +156,7 @@ entradas do mouse e do teclado.
 **javax.imageio.ImageIO e java.io.File:** Utilizada para tratar leitura dos
 arquivos das imagens.
 
-**4. Interface Gráfica e Execução:**
+## **4. Interface Gráfica e Execução:**
     A interface inicializa com a tela de menu principal, no qual o usuário pode
 escolher qual modo de jogo irá jogar ou se deseja visualizar os créditos do jogo. A escolha
 de uma dessa 3 opções é feita por meio do clique do mouse no retângulo correspondente.
@@ -197,7 +197,7 @@ Figura 4 - Game Over - Multiplayer.
 Figura 5 - Créditos.
 
 
-**5. Referências Bibliográficas:**
+## **5. Referências Bibliográficas:**
     https://stackoverflow.com/
     https://docs.oracle.com/javase/8/docs/api/
 
