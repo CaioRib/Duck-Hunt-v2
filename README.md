@@ -144,19 +144,6 @@ administra a quantidade de balas restantes em cada onda de patos no modo single 
 **Jogo:** ​Interface que define alguns dos métodos a serem implementados na
 classe Duck.
 
-
-### **3.3. Principais Bibliotecas:**
-**java.awt:** Utilizada para auxiliar no desenvolvimento da interface gráfica, por
-meio das classes gráficas para desenhar as imagens na tela, da classe para desenhar o
-cursor, para determinar as dimensões da janela e das classes de eventos, que capturam as
-entradas do mouse e do teclado.
-
-**javax.swing:** Utilizada para criar a tela do jogo, isto é, o ​ _frame_ e o ​ _panel_
-​ onde serão inseridas as imagens (​ _sprites_ ).
-
-**javax.imageio.ImageIO e java.io.File:** Utilizada para tratar leitura dos
-arquivos das imagens.
-
 ## **4. Interface Gráfica e Execução:**
 A interface inicializa com a tela de menu principal, no qual o usuário pode
 escolher qual modo de jogo irá jogar ou se deseja visualizar os créditos do jogo. A escolha
